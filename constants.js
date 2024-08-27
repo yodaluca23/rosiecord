@@ -12,7 +12,7 @@ class Shell {
                 after === null || after === void 0 ? void 0 : after(stderr, stdout);
                 resolve(stdout);
             });
-        });
+        });id
     }
     static async runSilently(command = 'ls', after = (stderr, stdout) => { }) {
         return await new Promise((resolve) => {
@@ -58,5 +58,5 @@ class States extends Colors {
 }
 class Constants {
 }
-Constants.IPA_FETCH_LINK = "https://ipa.aspy.dev/discord/testflight/Discord_223.0_57230.ipa";
+Constants.IPA_FETCH_LINK = "https://ipa.aspy.dev/discord/testflight/Discord_245.0_63222.ipa";
 export { Shell, Colors, Divider, States, Constants };
